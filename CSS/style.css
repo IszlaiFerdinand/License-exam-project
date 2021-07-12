@@ -1,0 +1,40 @@
+.main-form {
+  width: 60%;
+  margin: auto;
+}
+
+.g-recaptcha {
+  display: inline-block;
+  padding-top: 20px;
+}
+
+input[type="checkbox"] {
+  transform: scale(2);
+}
+
+#car {
+  display: none;
+}
+
+#seller {
+  display: none;
+}
+
+#buyer {
+  display: none;
+}
+
+#spec1,
+#spec2 {
+  display: none;
+}
+
+#g-recaptcha-response {
+  display: block !important;
+  position: absolute;
+  margin: -78px 0 0 0 !important;
+  width: 302px !important;
+  height: 76px !important;
+  z-index: -999999;
+  opacity: 0;
+}

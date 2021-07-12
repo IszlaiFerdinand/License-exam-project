@@ -1,0 +1,15 @@
+{
+    "name": "szakdolgozat/pdftk",
+
+    "autoload": {
+        "psr-4": {
+            "Classes\\" : "./classes"
+        }
+    },
+    
+    "require": {
+        "mikehaertl/php-pdftk": "^0.10.0"
+    },
+
+    "phpmailer/phpmailer": "~5.2"
+}
